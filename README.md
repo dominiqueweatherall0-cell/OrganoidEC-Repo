@@ -3,4 +3,5 @@ Independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab G
 The analysis was performed independently to explore vascularization defects in engineered cardiac organoids.
 
 Workflow: QC → integration → clustering → markers → pathways → vascularization hypothesis.
+
 Note: Data are not included in this repository. Scripts assume GEO (GSE106118) and EMM2 datasets are placed under data/raw/ as described in data/README.md.
