@@ -1,3 +1,6 @@
 # OrganoidEC-Repo
-Reproducible scRNA-seq pipeline comparing Aguirre’s cardiac organoid endothelial cells (EMM2/1) with week 6 fetal heart reference to assess subtype composition and angiogenic activity.
+Independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab GSE218582) and fetal heart reference (GSE106118).
+The analysis was performed independently to explore vascularization defects in engineered cardiac organoids.
+
+Workflow: QC → integration → clustering → markers → pathways → vascularization hypothesis.
 Note: Data are not included in this repository. Scripts assume GEO (GSE106118) and EMM2 datasets are placed under data/raw/ as described in data/README.md.
