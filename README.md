@@ -1,5 +1,7 @@
 # OrganoidEC-Repo
-This repository contains an independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab EMM2 dataset, GSE218582) compared against a fetal heart endothelial reference (GSE106118). The work was motivated by Dr. Aguirre’s observation of reduced vascularization in EMM2/1 cardiac organoids, prompting a systematic analysis of endothelial cell subtype composition and mechanotransduction activity.
+This repository contains an independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab EMM2 dataset, GSE218582) compared against a fetal heart endothelial reference (GSE106118).
+
+The work was motivated by Dr. Aguirre’s observation of reduced vascularization in EMM2/1 cardiac organoids, prompting a systematic analysis of endothelial cell subtype composition and mechanotransduction activity.
 
 The pipeline was developed and executed independently, demonstrating the ability to reproduce and extend cutting-edge lab findings.
 
@@ -17,20 +19,30 @@ Workflow
 
 Repository Structure
 
-Scripts/ – modular R scripts, organized in numbered order:
+- Scripts/ – modular R scripts, organized in numbered order:
 
-- 01_load_qc.R – load data and perform QC
+  - 01_load_qc.R – load data and perform QC
 
-- 02_gate_integrate_subtypes.R – endothelial gating, integration, and subtype annotation
+  - 02_gate_integrate_subtypes.R – endothelial gating, integration, and subtype annotation
 
-- 03_tip_tests.R – tip EC scoring and proportion analysis
+  - 03_tip_tests.R – tip EC scoring and proportion analysis
 
-- 04_mech_panel_de.R – mechanotransduction panel differential expression
+  - 04_mech_panel_de.R – mechanotransduction panel differential expression
 
-Results/ – representative figures and outputs, organized in corresponding subfolders (01_qc, 02_integration_subtypes, etc.)
+- Results/ – representative figures and outputs, organized in corresponding subfolders (01_qc, 02_integration_subtypes, etc.)
+
+Conclusion
+
+Result highlights include:
+
+- Elevated expression of ESM1 in organoid tip ECs
+
+- Directional shifts in KLF4, CAMK2D, and PIEZO1 consistent with impaired laminar shear signaling
+
+These findings support a hypothesis that mechanotransduction deficits may underlie the reduced vascularization observed in EMM2 cardiac organoids.
 
 Notes
 
-Raw datasets are not included due to size. Scripts assume GEO accession numbers GSE106118 (fetal reference) and GSE218582 (cardiac organoids).
+- Raw datasets are not included due to size restrictions. Scripts assume GEO accession numbers GSE106118 (fetal reference) and GSE218582 (cardiac organoids).
 
-This project was conducted independently, demonstrating my ability to design, execute, and interpret computational workflows to address biologically meaningful questions in organoid vascularization.
+- This project was conducted independently, demonstrating my ability to design, execute, and interpret computational workflows to address biologically meaningful questions in organoid vascularization.
