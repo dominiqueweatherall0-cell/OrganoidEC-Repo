@@ -1,25 +1,25 @@
 # OrganoidEC-Repo
 This repository presents an independent single-cell RNA-seq analysis of cardiac organoid endothelial cells (Aguirre lab, dataset GSE218582) benchmarked against a fetal heart reference (GSE106118). The analysis was motivated by Aguirre’s observation of reduced vascularization in EMM2/1 cardiac organoids, prompting an independent investigation into endothelial cell subtypes and mechanotransduction pathways.
 
-Objectives
+Objectives:
 
-Independently process and analyze large-scale scRNA-seq data.
+- Independently process and analyze large-scale scRNA-seq data.
 
-Compare endothelial subtypes between fetal reference and cardiac organoids.
+- Compare endothelial subtypes between fetal reference and cardiac organoids.
 
-Identify transcriptional pathways linked to tip endothelial cell (EC) maturation, with a focus on mechanotransduction.
+- Identify transcriptional pathways linked to tip endothelial cell (EC) maturation, with a focus on mechanotransduction.
 
-Workflow
+Workflow:
 
-Quality Control – filtering and visualization of single-cell counts.
+- Quality Control – filtering and visualization of single-cell counts.
 
-Integration & Batch Correction – aligning fetal and organoid datasets.
+- Integration & Batch Correction – aligning fetal and organoid datasets.
 
-Subtype Annotation – classification of endothelial subtypes (tip, venous, fenestrated, endocardial, etc.).
+- Subtype Annotation – classification of endothelial subtypes (tip, venous, fenestrated, endocardial, etc.).
 
-Tip EC Analysis – module scoring and statistical testing of tip ECs across conditions.
+- Tip EC Analysis – module scoring and statistical testing of tip ECs across conditions.
 
-Mechanotransduction Panel – differential expression analysis revealing a candidate shear stress–responsive pathway that may contribute to impaired tip EC maturation.
+- Mechanotransduction Panel – differential expression analysis revealing a candidate shear stress–responsive pathway that may contribute to impaired tip EC maturation.
 
 Repository Structure
 
