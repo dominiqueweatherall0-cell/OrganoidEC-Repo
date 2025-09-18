@@ -1,7 +1,36 @@
 # OrganoidEC-Repo
-Independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab GSE218582) and fetal heart reference (GSE106118).
-The analysis was performed independently to explore vascularization defects in engineered cardiac organoids.
+This repository presents an independent single-cell RNA-seq analysis of cardiac organoid endothelial cells (Aguirre lab, dataset GSE218582) benchmarked against a fetal heart reference (GSE106118). The analysis was motivated by Aguirre’s observation of reduced vascularization in EMM2/1 cardiac organoids, prompting an independent investigation into endothelial cell subtypes and mechanotransduction pathways.
 
-Workflow: QC → integration → tip EC analysis → differential expression analysis → vascularization hypothesis.
+Objectives
 
-Note: Data are not included in this repository. Scripts assume GEO (GSE106118) and EMM2 datasets are placed under data/raw/ as described in data/README.md.
+Independently process and analyze large-scale scRNA-seq data.
+
+Compare endothelial subtypes between fetal reference and cardiac organoids.
+
+Identify transcriptional pathways linked to tip endothelial cell (EC) maturation, with a focus on mechanotransduction.
+
+Workflow
+
+Quality Control – filtering and visualization of single-cell counts.
+
+Integration & Batch Correction – aligning fetal and organoid datasets.
+
+Subtype Annotation – classification of endothelial subtypes (tip, venous, fenestrated, endocardial, etc.).
+
+Tip EC Analysis – module scoring and statistical testing of tip ECs across conditions.
+
+Mechanotransduction Panel – differential expression analysis revealing a candidate shear stress–responsive pathway that may contribute to impaired tip EC maturation.
+
+Repository Structure
+
+Scripts/ – modular R scripts:
+
+01_load_qc.R – load datasets and perform QC
+
+02_gate_integrate_subtypes.R – endothelial gating, integration, subtype annotation
+
+03_tip_tests.R – tip EC module scoring and proportion tests
+
+04_mech_panel_de.R – mechanotransduction panel differential expression
+
+Results/ – figures and summary outputs, organized by analysis stage.
