@@ -39,6 +39,10 @@ Result highlights include:
 
 - Directional shifts in KLF4, CAMK2D, and PIEZO1 consistent with impaired laminar shear signaling
 
+- Endothelial subtype composition differs between Week6Ref and EMM2 organoids.
+
+![UMAP and subtype composition](results/05_integration_subtypes.png)
+
 These findings support a hypothesis that mechanotransduction deficits may underlie the reduced vascularization observed in EMM2 cardiac organoids.
 
 Notes
