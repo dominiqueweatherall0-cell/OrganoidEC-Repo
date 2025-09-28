@@ -53,7 +53,7 @@ Result highlights include:
 - Directional shifts in KLF4, CAMK2D, and PIEZO1 consistent with impaired laminar shear signaling
 
 ![UMAP and subtype composition](results/02_integration_subtypes/05_integration_subtypes.png)
-![UMAP and subtype composition](results/04_mech_panel_de/mech_panel_DE.png)
+![mechanoreceptor_DE](results/04_mech_panel_de/mech_panel_DE.png)
 
 These findings support a hypothesis that mechanotransduction deficits may underlie the reduced vascularization and Tip EC maturation observed in EMM2 cardiac organoids.
 
