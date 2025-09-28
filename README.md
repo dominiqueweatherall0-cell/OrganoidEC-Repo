@@ -13,7 +13,7 @@ Workflow
 
 3. Subtype identification – annotation of endothelial subtypes at single-cell resolution
 
-4. Tip EC–focused analysis – statistical comparison of abundance and mechanotransduction scores
+4. Tip EC–focused analysis – statistical comparison of abundance
 
 5. Mechanotransduction pathway DE – differential expression of shear-responsive genes to assess maturation potential
 
