@@ -1,7 +1,7 @@
 # OrganoidEC-Repo
-This repository contains an independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab EMM2 dataset, GSE218582) compared against a fetal heart endothelial reference (GSE106118).
+This repository contains an independent single-cell RNA-seq analysis of human heart organoids (Aguirre lab EMM2/1 dataset, GSE218582) compared against a fetal heart endothelial reference (GSE106118). Note: EMM2 was used to abbreviate EMM2/1 throughout the analysis.
 
-The work was motivated by Dr. Aguirre’s observation of reduced vascularization in EMM2/1 cardiac organoids, prompting a systematic analysis of endothelial cell subtype composition and mechanotransduction activity.
+The work was motivated by Dr. Aguirre’s observation of reduced vascularization in EMM2 cardiac organoids, prompting a systematic analysis of endothelial cell subtype composition and mechanotransduction activity.
 
 The pipeline was developed and executed independently, demonstrating the ability to reproduce and extend cutting-edge lab findings.
 
