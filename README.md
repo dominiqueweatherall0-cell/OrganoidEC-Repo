@@ -30,6 +30,17 @@ Repository Structure
   - 04_mech_panel_de.R – mechanotransduction panel differential expression
 
 - Results/ – representative figures and outputs, organized in corresponding subfolders (01_qc, 02_integration_subtypes, etc.)
+- data/ – placeholder for raw and processed data (not uploaded; see Data Availability below).
+
+Figure Map
+
+01_load_qc.R → QC_organoid.png, EMM2_QC.png
+
+02_gate_integrate_subtypes.R → Endothelial_clusters.png, umap_condition.png, subtype_composition.png
+
+03_tip_tests.R → tip_module_score.png, tip_proportion.png
+
+04_mech_panel_de.R → mechno_transduction_DE.png
 
 Conclusion
 
