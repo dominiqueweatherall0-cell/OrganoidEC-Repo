@@ -55,7 +55,7 @@ Result highlights include:
 ![UMAP and subtype composition](results/02_integration_subtypes/05_integration_subtypes.png)
 ![mechanoreceptor_DE](results/04_mech_panel_de/mech_panel_DE.png)
 
-These findings support a hypothesis that mechanotransduction deficits may underlie the reduced vascularization and Tip EC maturation observed in EMM2 cardiac organoids.
+Single-cell RNA-seq analysis of EMM2 cardiac organoids revealed elevated PIEZO1 and ESM1 but marked downregulation of CAMK2D and KLF4 compared to the vascularized reference model. This transcriptional profile suggests that while endothelial cells retain mechanosensory capacity via PIEZO1, the Ca²⁺-driven signaling cascade required for flow-mediated transcriptional reprogramming is functionally impaired. Under physiological shear stress, PIEZO1 activation induces calcium influx that stimulates CAMK2D, leading to ERK5–KLF2/KLF4 activation, endothelial alignment, and the transition of migratory tip cells into quiescent stalk cells for proper vessel maturation (Zheng et al., 2022). The concurrent PIEZO1 upregulation and CAMK2D/KLF4 suppression in EMM2 organoids indicate a disconnect between mechanical sensing and transcriptional response, consistent with a static, low-shear environment. Elevated ESM1, a hallmark of tip-like, angiogenic endothelial states, further supports that endothelial maturation stalls before anastomosis. Collectively, these findings support the hypothesis that loss of Ca²⁺-CAMK2D signaling underlies incomplete mechanotransductive coupling, resulting in immature, non-perfusable vascular networks. Introducing flow-based conditioning or pulsatile microfluidic stimulation may restore this signaling axis and rescue vessel stabilization in vitro.
 
 Notes
 
