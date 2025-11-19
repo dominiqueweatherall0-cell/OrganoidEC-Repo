@@ -44,7 +44,7 @@ Figure Map
 
 Conclusion
 
-Result highlights include:
+Results highlights include:
 
 - Endothelial subtype composition differs between Week6Ref and EMM2 organoids.
 
