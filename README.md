@@ -3,7 +3,7 @@ This repository contains an independent single-cell RNA-seq analysis of human he
 
 The work was motivated by Dr. Aguirre’s observation of reduced vascularization in EMM2 cardiac organoids, prompting a systematic analysis of endothelial cell subtype composition and mechanotransduction activity.
 
-The pipeline was developed and executed independently, demonstrating the ability to reproduce and extend cutting-edge lab findings.
+The pipeline was developed and executed independently, demonstrating my ability to reproduce and extend cutting-edge lab findings.
 
 Workflow
 
